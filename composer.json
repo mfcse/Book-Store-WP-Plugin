@@ -1,0 +1,20 @@
+{
+    "name": "maruf/book-store",
+    "description": "A sample wp plugin to store book information",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Maruf",
+            "email": "maruf.cu.cse09@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Book\\Store\\":"includes/"
+        },
+        "files": ["includes/functions.php"]
+    }
+}
